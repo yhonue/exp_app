@@ -26,6 +26,8 @@ gem 'jquery-rails', '2.0.2'
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'mongoid', ' 2.3'
+  gem 'bson_ext', ' 1.4'
 end
 
 # To use ActiveModel has_secure_password
